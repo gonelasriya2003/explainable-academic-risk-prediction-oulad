@@ -1,0 +1,7 @@
+table,rows,columns,duplicate_rows,missing_values
+courses,22,3,0,0
+assessments,206,6,0,11
+studentInfo,32593,12,0,1111
+studentRegistration,32593,5,0,22566
+studentAssessment,173912,5,0,173
+vle,6364,6,0,10486

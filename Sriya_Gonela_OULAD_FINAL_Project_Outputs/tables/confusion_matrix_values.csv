@@ -1,0 +1,5 @@
+model,threshold,true_negative,false_positive,false_negative,true_positive
+Logistic Regression,0.5,2592,443,858,1404
+Random Forest,0.5,2626,409,871,1391
+XGBoost,0.5,2616,419,838,1424
+XGBoost operational,0.19,1337,1698,178,2084

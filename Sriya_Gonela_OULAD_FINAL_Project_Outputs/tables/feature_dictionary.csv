@@ -1,0 +1,57 @@
+feature,category,dtype
+code_module,Course context,object
+code_presentation,Course context,object
+gender,Student context,object
+region,Student context,object
+highest_education,Student context,object
+imd_band,Student context,object
+age_band,Student context,object
+num_of_prev_attempts,Student context,int64
+studied_credits,Student context,int64
+disability,Student context,object
+date_registration,Registration context,float64
+module_presentation_length,Course context,int64
+assess_due_count,Early assessment behaviour,float64
+assess_total_due_weight,Early assessment behaviour,float64
+assess_submitted_count,Early assessment behaviour,float64
+assess_mean_score,Early assessment behaviour,float64
+assess_min_score,Early assessment behaviour,float64
+assess_max_score,Early assessment behaviour,float64
+assess_score_std,Early assessment behaviour,float64
+assess_late_count,Early assessment behaviour,float64
+assess_banked_count,Early assessment behaviour,float64
+assess_mean_submission_day,Early assessment behaviour,float64
+assess_mean_days_from_deadline,Early assessment behaviour,float64
+assess_submitted_weight,Early assessment behaviour,float64
+assess_weighted_mean_score,Early assessment behaviour,float64
+vle_total_clicks,Early VLE engagement,float64
+vle_active_days,Early VLE engagement,float64
+vle_unique_sites,Early VLE engagement,float64
+vle_first_activity_day,Early VLE engagement,float64
+vle_last_activity_day,Early VLE engagement,float64
+vle_avg_clicks_active_day,Early VLE engagement,float64
+vle_clicks_first14,Early VLE engagement,float64
+vle_clicks_days14_27,Early VLE engagement,float64
+vle_clicks_last14,Early VLE engagement,float64
+vle_engagement_trend_ratio,Early VLE engagement,float64
+vle_clicks_dataplus,Early VLE engagement,float64
+vle_clicks_dualpane,Early VLE engagement,float64
+vle_clicks_externalquiz,Early VLE engagement,float64
+vle_clicks_forumng,Early VLE engagement,float64
+vle_clicks_glossary,Early VLE engagement,float64
+vle_clicks_homepage,Early VLE engagement,float64
+vle_clicks_htmlactivity,Early VLE engagement,float64
+vle_clicks_oucollaborate,Early VLE engagement,float64
+vle_clicks_oucontent,Early VLE engagement,float64
+vle_clicks_ouelluminate,Early VLE engagement,float64
+vle_clicks_ouwiki,Early VLE engagement,float64
+vle_clicks_page,Early VLE engagement,float64
+vle_clicks_questionnaire,Early VLE engagement,float64
+vle_clicks_quiz,Early VLE engagement,float64
+vle_clicks_repeatactivity,Early VLE engagement,float64
+vle_clicks_resource,Early VLE engagement,float64
+vle_clicks_sharedsubpage,Early VLE engagement,float64
+vle_clicks_subpage,Early VLE engagement,float64
+vle_clicks_url,Early VLE engagement,float64
+assess_missed_count,Early assessment behaviour,float64
+assess_submission_rate,Early assessment behaviour,float64

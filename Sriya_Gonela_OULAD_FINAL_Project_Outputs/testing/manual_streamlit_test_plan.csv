@@ -1,0 +1,7 @@
+test_id,test,expected_result,status
+M1,Upload sample_input.csv,Prediction and SHAP explanation displayed,TO TEST
+M2,Upload CSV containing two rows,Application rejects file,TO TEST
+M3,Upload CSV with one required feature removed,Application reports missing feature,TO TEST
+M4,Manual submissions exceed assessments due,Application rejects inconsistent input,TO TEST
+M5,Manual VLE windows exceed total clicks,Application rejects inconsistent input,TO TEST
+M6,Valid manual input,Prediction and explanation displayed,TO TEST

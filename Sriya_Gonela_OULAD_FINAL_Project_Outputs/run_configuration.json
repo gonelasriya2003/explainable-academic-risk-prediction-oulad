@@ -1,0 +1,20 @@
+{
+  "run_type": "FINAL",
+  "prediction_day": 56,
+  "random_state": 42,
+  "cv_folds": 5,
+  "model_selection_metric": "PR-AUC, then F1, then Recall",
+  "original_records": 32593,
+  "excluded_on_or_before_day56": 6071,
+  "eligible_records": 26522,
+  "model_development_records": 16992,
+  "threshold_validation_records": 4233,
+  "final_training_records": 21225,
+  "holdout_test_records": 5297,
+  "input_features": 56,
+  "transformed_features": 94,
+  "preferred_model": "XGBoost",
+  "threshold_selection": "Separate grouped validation set using F2",
+  "operating_threshold": 0.19,
+  "class_weight_used": false
+}

@@ -1,0 +1,17 @@
+test,result,evidence
+No final train/test student overlap,PASS,0
+No development/threshold student overlap,PASS,0
+final_result excluded from predictors,PASS,Not used as predictor
+date_unregistration excluded from predictors,PASS,Eligibility only
+No students withdrawn by Day 56 remain,PASS,0
+Reloaded model gives identical probability,PASS,0.04643539 vs 0.04643539
+Model handles missing numeric input,PASS,0.046435393
+Model handles unseen category,PASS,0.046435393
+Operating threshold is valid,PASS,0.19
+Brier score is valid,PASS,0.16373355518592939
+SHAP mapping matches transformed features,PASS,"94 mapped, 94 transformed"
+app.py compiles,PASS,Valid Python syntax
+app_utils.py compiles,PASS,Valid Python syntax
+One-row complete CSV is accepted,PASS,Valid feature row.
+Multi-row CSV is rejected,PASS,The CSV must contain exactly one row.
+Incomplete CSV is rejected,PASS,Missing features: code_module

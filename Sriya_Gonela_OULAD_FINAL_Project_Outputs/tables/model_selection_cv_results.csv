@@ -1,0 +1,4 @@
+model,cv_accuracy,cv_precision,cv_recall,cv_f1,cv_roc_auc,cv_pr_auc,cv_f1_sd,best_parameters
+Logistic Regression,0.7657100851541255,0.7745716224587935,0.6223705052142074,0.6901331459499299,0.8308531669115033,0.8068377948715935,0.00464190958770337,"{'model__C': 0.1, 'model__penalty': 'l2'}"
+Random Forest,0.7670736751993155,0.7790866292563468,0.6203689462506364,0.6906413334677303,0.8294735776501551,0.810119725144364,0.007459924942036569,"{'model__n_estimators': 250, 'model__min_samples_split': 5, 'model__min_samples_leaf': 1, 'model__max_features': 'sqrt', 'model__max_depth': None}"
+XGBoost,0.7683067716880685,0.7723746021086628,0.6342938334996943,0.6965258106937229,0.8337014049071534,0.814911091331725,0.005082120662360231,"{'model__subsample': 0.8, 'model__reg_lambda': 1, 'model__n_estimators': 350, 'model__min_child_weight': 1, 'model__max_depth': 3, 'model__learning_rate': 0.1, 'model__colsample_bytree': 1.0}"

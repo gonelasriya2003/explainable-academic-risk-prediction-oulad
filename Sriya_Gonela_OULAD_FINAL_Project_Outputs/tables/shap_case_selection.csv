@@ -1,0 +1,5 @@
+case,id_student,actual,prediction,risk_probability
+True Positive,581909,1,1,0.9977510571479797
+True Negative,895524,0,0,0.01108037680387497
+False Positive,477412,0,1,0.9937584400177002
+False Negative,335644,1,0,0.021893002092838287
